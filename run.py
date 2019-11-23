@@ -58,7 +58,7 @@ for row in progressbar(table):
     popup = popup + popup_wrapper[1]
     folium.Marker([longitude, latitude], popup=popup, icon=folium.Icon(color='blue')).add_to(folium_map)
         
-filename = './map5.html'
+filename = './map.html'
 folium_map.save(output_file_path)
 
 with open('./error_address.txt', 'w') as f:
