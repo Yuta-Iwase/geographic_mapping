@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d4b08e65299d48fc92aac94d05b7c511 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d4b08e65299d48fc92aac94d05b7c511" ></div>
+        
+</body>
+<script>    
+    
+            var map_d4b08e65299d48fc92aac94d05b7c511 = L.map(
+                "map_d4b08e65299d48fc92aac94d05b7c511",
+                {
+                    center: [35.681382, 139.76608399999998],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9f988c652f5042eaad3e5fefbdf4a4e1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d4b08e65299d48fc92aac94d05b7c511);
+        
+    
+            var marker_a92b7efef3674335b44092c4869a63b7 = L.marker(
+                [35.65859206, 139.74544113],
+                {}
+            ).addTo(map_d4b08e65299d48fc92aac94d05b7c511);
+        
+    
+            var icon_f664dfa422e9498eaf267732f17f45f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a92b7efef3674335b44092c4869a63b7.setIcon(icon_f664dfa422e9498eaf267732f17f45f7);
+        
+    
+        var popup_c9d26993071248f091fda2d999ad2d3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e813fee32bd8406eb8049a869dfb5b87 = $(`<div id="html_e813fee32bd8406eb8049a869dfb5b87" style="width: 100.0%; height: 100.0%;"><div style="width: 240px;"><span style="font-size: 120%; font-weight: bolder;">東京タワー</span><br>333m<br>2012年竣工<br></div></div>`)[0];
+            popup_c9d26993071248f091fda2d999ad2d3e.setContent(html_e813fee32bd8406eb8049a869dfb5b87);
+        
+
+        marker_a92b7efef3674335b44092c4869a63b7.bindPopup(popup_c9d26993071248f091fda2d999ad2d3e)
+        ;
+
+        
+    
+    
+            var marker_ea9edd631da143e280ca8521e49c9766 = L.marker(
+                [35.71026838, 139.81215754],
+                {}
+            ).addTo(map_d4b08e65299d48fc92aac94d05b7c511);
+        
+    
+            var icon_4c33b86e868b47c5bbaceb8e597b064d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ea9edd631da143e280ca8521e49c9766.setIcon(icon_4c33b86e868b47c5bbaceb8e597b064d);
+        
+    
+        var popup_68d2ca2fce50481e891d89f3d8b71ce4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33e0a924daa84833b029eacab1001a08 = $(`<div id="html_33e0a924daa84833b029eacab1001a08" style="width: 100.0%; height: 100.0%;"><div style="width: 240px;"><span style="font-size: 120%; font-weight: bolder;">東京スカイツリー</span><br>634m<br>1958年竣工<br></div></div>`)[0];
+            popup_68d2ca2fce50481e891d89f3d8b71ce4.setContent(html_33e0a924daa84833b029eacab1001a08);
+        
+
+        marker_ea9edd631da143e280ca8521e49c9766.bindPopup(popup_68d2ca2fce50481e891d89f3d8b71ce4)
+        ;
+
+        
+    
+    
+            var marker_ee07c1e0ec8143b08effa4cf323765b8 = L.marker(
+                [35.66581314, 139.73106157],
+                {}
+            ).addTo(map_d4b08e65299d48fc92aac94d05b7c511);
+        
+    
+            var icon_15bed4d9033d4585890360546abee89c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ee07c1e0ec8143b08effa4cf323765b8.setIcon(icon_15bed4d9033d4585890360546abee89c);
+        
+    
+        var popup_4b13a0e700ff49e0b40d0ca2da56f1b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1506afde0e64953acca85c17b87f86a = $(`<div id="html_d1506afde0e64953acca85c17b87f86a" style="width: 100.0%; height: 100.0%;"><div style="width: 240px;"><span style="font-size: 120%; font-weight: bolder;">ミッドタウン・タワー</span><br>248m<br>2007年竣工<br></div></div>`)[0];
+            popup_4b13a0e700ff49e0b40d0ca2da56f1b3.setContent(html_d1506afde0e64953acca85c17b87f86a);
+        
+
+        marker_ee07c1e0ec8143b08effa4cf323765b8.bindPopup(popup_4b13a0e700ff49e0b40d0ca2da56f1b3)
+        ;
+
+        
+    
+    
+            var marker_760fb4d2352746e79e438fc671a0d63c = L.marker(
+                [35.66729954, 139.74907105],
+                {}
+            ).addTo(map_d4b08e65299d48fc92aac94d05b7c511);
+        
+    
+            var icon_b76e86e433d44e8d9ad4ef076f711a1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_760fb4d2352746e79e438fc671a0d63c.setIcon(icon_b76e86e433d44e8d9ad4ef076f711a1c);
+        
+    
+        var popup_9c223efee61b47a99ccd1c7c30d8973d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2259ea9d8a146529807a78da118e536 = $(`<div id="html_d2259ea9d8a146529807a78da118e536" style="width: 100.0%; height: 100.0%;"><div style="width: 240px;"><span style="font-size: 120%; font-weight: bolder;">虎ノ門ヒルズ</span><br>255m<br>2014年竣工<br></div></div>`)[0];
+            popup_9c223efee61b47a99ccd1c7c30d8973d.setContent(html_d2259ea9d8a146529807a78da118e536);
+        
+
+        marker_760fb4d2352746e79e438fc671a0d63c.bindPopup(popup_9c223efee61b47a99ccd1c7c30d8973d)
+        ;
+
+        
+    
+    
+            var marker_71d29e88cd9a4f0faf3480ae826686cb = L.marker(
+                [35.68918461, 139.69164748],
+                {}
+            ).addTo(map_d4b08e65299d48fc92aac94d05b7c511);
+        
+    
+            var icon_86c5338d1c204768a8cec23f32115b43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_71d29e88cd9a4f0faf3480ae826686cb.setIcon(icon_86c5338d1c204768a8cec23f32115b43);
+        
+    
+        var popup_a432e1aa23444a0293854a05f4710124 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd9c4141e5054c38b4d47efecb703c43 = $(`<div id="html_bd9c4141e5054c38b4d47efecb703c43" style="width: 100.0%; height: 100.0%;"><div style="width: 240px;"><span style="font-size: 120%; font-weight: bolder;">東京都庁第一本庁舎</span><br>242m<br>1991年竣工<br></div></div>`)[0];
+            popup_a432e1aa23444a0293854a05f4710124.setContent(html_bd9c4141e5054c38b4d47efecb703c43);
+        
+
+        marker_71d29e88cd9a4f0faf3480ae826686cb.bindPopup(popup_a432e1aa23444a0293854a05f4710124)
+        ;
+
+        
+    
+</script>
